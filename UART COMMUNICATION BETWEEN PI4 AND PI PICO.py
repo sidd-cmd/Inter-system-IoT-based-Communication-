@@ -16,8 +16,7 @@ while True:
 
 #PICO (SLAVE)
 import machine
-import time
-
+import time #raghu bros repo
 uart = machine.UART(0, baudrate=115200)
 
 while True:
